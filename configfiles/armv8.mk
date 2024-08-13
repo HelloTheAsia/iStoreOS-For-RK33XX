@@ -93,3 +93,13 @@ define Device/rk3399_tpm312
   IMAGE/sysupgrade.img.gz := boot-common | boot-script | pine64-img | gzip | append-metadata
 endef
 TARGET_DEVICES += rk3399_tpm312
+
+
+define Device/dusun-210
+  DEVICE_VENDOR := Dusun
+  DEVICE_MODEL := Dusun 210
+  SOC := rk3328
+  UBOOT_DEVICE_NAME := dusun-210-rk3328
+  IMAGE/sysupgrade.img.gz := boot-common | boot-script | pine64-img | gzip | append-metadata
+endef
+TARGET_DEVICES += dusun-210
