@@ -97,7 +97,7 @@ cp -f $GITHUB_WORKSPACE/configfiles/rk3399.dtsi target/linux/rockchip/armv8/file
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-opp.dtsi target/linux/rockchip/armv8/files/arch/arm64/boot/dts/rockchip/rk3399-opp.dtsi
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-r08.dts target/linux/rockchip/armv8/files/arch/arm64/boot/dts/rockchip/rk3399-r08.dts
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-tpm312.dts target/linux/rockchip/armv8/files/arch/arm64/boot/dts/rockchip/rk3399-tpm312.dts
-cp -f $GITHUB_WORKSPACE/configfiles/rk3328-evb.dts target/linux/rockchip/armv8/files/arch/arm64/boot/dts/rockchip/rk3328-evb.dts
+#cp -f $GITHUB_WORKSPACE/configfiles/rk3328-evb.dts target/linux/rockchip/armv8/files/arch/arm64/boot/dts/rockchip/rk3328-evb.dts
 cp -f $GITHUB_WORKSPACE/configfiles/rk3328-dusun-210.dts target/linux/rockchip/armv8/files/arch/arm64/boot/dts/rockchip/rk3328-dusun-210.dts
 
 
@@ -105,7 +105,7 @@ cp -f $GITHUB_WORKSPACE/configfiles/rk3399.dtsi package/boot/uboot-rockchip/src/
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-opp.dtsi package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-opp.dtsi
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-r08.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-r08.dts
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-tpm312.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-tpm312.dts
-cp -f $GITHUB_WORKSPACE/configfiles/rk3328-evb.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3328-evb.dts
+#cp -f $GITHUB_WORKSPACE/configfiles/rk3328-evb.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3328-evb.dts
 cp -f $GITHUB_WORKSPACE/configfiles/rk3328-dusun-210.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3328-dusun-210.dts
 
 
